@@ -7,4 +7,4 @@ portal->search for ER-> select internet service provider, bandwidth, sku, billin
 once ER gets created, you can find "service key" in the overview page of ER, every ER has unique service key, need to give it with the service provider to create connection to our ER ckt, service provide maps the service key with the microsoft, to map that they provide VLAN id, MS ASN number, peer ASN number, then we can see the ckt is provisioned in azure.
 ER ckt has two peerings - Private and Microsoft
 Private Peering: before creating the private peering for ER ckt in portal, we should have two subnets, one is for primary link and second subnet is for secondary link, VLAN ID, ASN number.
-then we create VNG, vpn type as ER, then link the VNET to ER ckt.
+then we create VNG, vpn type as ER, then link the VNET to ER ckt. go to vpn->configuration->enable vnet to vnet traffic
